@@ -3,7 +3,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@gabs-ui/react'
 
 export default {
-  title: 'Button',
+  title: 'Components/Button',
   component: Button,
 } as Meta<ButtonProps>
 
