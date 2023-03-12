@@ -25,10 +25,14 @@
     "vite": "^4.1.4"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@gabs-ui/eslint-config": "*",
     "@gabs-ui/react": "*",
     "@gabs-ui/tokens": "*",
     "@gabs-ui/ts-config": "*",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.12",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
