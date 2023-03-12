@@ -31,10 +31,13 @@ var __objRest = (source, exclude) => {
 };
 
 // src/components/Button/index.tsx
+import {
+  Button as MuiButton
+} from "@mui/material";
 import { jsx } from "react/jsx-runtime";
 function Button(_a) {
   var props = __objRest(_a, []);
-  return /* @__PURE__ */ jsx("button", __spreadProps(__spreadValues({}, props), { children: props.children }));
+  return /* @__PURE__ */ jsx(MuiButton, __spreadProps(__spreadValues({}, props), { children: props.children }));
 }
 export {
   Button
