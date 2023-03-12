@@ -24,6 +24,7 @@
     "vite": "^4.1.4"
   },
   "dependencies": {
+    "@gabs-ui/ts-config": "*",
     "@gabs-ui/eslint-config": "*",
     "@gabs-ui/react": "*",
     "@gabs-ui/tokens": "*",

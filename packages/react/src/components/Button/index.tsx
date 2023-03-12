@@ -1,6 +1,6 @@
-import React, { ComponentProps } from 'react'
+import { ComponentProps } from 'react'
 
-export function Button({ ...props }): JSX.Element {
+export function Button({ ...props }) {
   return <button {...props}>{props.children}</button>
 }
 

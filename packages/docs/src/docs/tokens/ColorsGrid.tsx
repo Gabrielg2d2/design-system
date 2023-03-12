@@ -1,6 +1,5 @@
 import { colors } from '@gabs-ui/tokens'
 import { getContrast } from 'polished'
-import React from 'react'
 
 export function ColorsGrid() {
   return (
