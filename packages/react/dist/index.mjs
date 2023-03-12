@@ -1,4 +1,6 @@
 var __defProp = Object.defineProperty;
+var __defProps = Object.defineProperties;
+var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
 var __getOwnPropSymbols = Object.getOwnPropertySymbols;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
 var __propIsEnum = Object.prototype.propertyIsEnumerable;
@@ -14,6 +16,7 @@ var __spreadValues = (a, b) => {
     }
   return a;
 };
+var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
 var __objRest = (source, exclude) => {
   var target = {};
   for (var prop in source)
@@ -28,10 +31,10 @@ var __objRest = (source, exclude) => {
 };
 
 // src/components/Button/index.tsx
-import React from "react";
+import { jsx } from "react/jsx-runtime";
 function Button(_a) {
   var props = __objRest(_a, []);
-  return /* @__PURE__ */ React.createElement("button", __spreadValues({}, props), props.children);
+  return /* @__PURE__ */ jsx("button", __spreadProps(__spreadValues({}, props), { children: props.children }));
 }
 export {
   Button
